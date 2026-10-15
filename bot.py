@@ -5,7 +5,7 @@ import os
 import requests
 
 token = os.getenv("8680702032:AAEm2ROI15ko_Xe8ptw-CMtTmd5D18SAsyg")
-chat_id = os.getenv("172917543")
+chat_id = os.getenv("id":767353805")
 
 if not token or not chat_id:
     raise ValueError("Brakuje TELEGRAM_TOKEN lub CHAT_ID w GitHub Secrets")
