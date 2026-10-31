@@ -1,5 +1,3 @@
-
-
 import os
 import requests
 
@@ -24,4 +22,3 @@ print("HTTP:", response.status_code)
 print("Telegram:", response.json())
 
 response.raise_for_status()
-
